@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Lingkaran07 {
+public static void main(String[] args) {
+ Scanner input = new Scanner(System.in);
+int r;
+double luas, keliling;
+System.out.println("Masukkan jari-jari lingkaran: ");
+r=input.nextInt();
+keliling = 2*3.4*r;
+luas=3.14*r*r;
+
+System.out.println(keliling);
+System.out.println(luas);
+}
+}
+
+
+
